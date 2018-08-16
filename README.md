@@ -14,4 +14,9 @@ You can also add another default cell by creating a new line just below :
 ---
 
 Put me in `/usr/local/share/jupyter/` in Mac OS.  
+You can search the path by
 
+```
+from jupyter_core.paths import jupyter_path
+jupyter_path()
+```
