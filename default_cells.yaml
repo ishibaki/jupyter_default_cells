@@ -1,0 +1,11 @@
+Type: IPython Notebook Extension
+Compatibility: 3.x, 4.x
+Name: Default cells
+Main: main.js
+Link: README.md
+Description: |
+  Add a default cell for each new notebook. Useful when you import always the same libraries$
+
+
+Parameters:
+- none
