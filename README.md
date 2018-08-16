@@ -1,5 +1,6 @@
-default_cells
-=========
+# default_cells
+
+Put me in `/usr/local/share/jupyter/` in Mac OS.  
 
 Add default cells to each new notebook. You have to modify this line in the main.js file to change your default cell. For example
 
