@@ -11,6 +11,6 @@ You can also add another default cell by creating a new line just below :
 
 `Jupyter.notebook.insert_cell_above('code', 1).set_text("from sklearn.meatrics import mean_squared_error")`
 
-**Don't forget to increment 1 if you want more than one extra cell. **
+**Don't forget to increment 1 if you want more than one extra cell.**
 
 
