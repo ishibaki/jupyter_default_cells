@@ -1,7 +1,5 @@
 # default_cells
 
-Put me in `/usr/local/share/jupyter/` in Mac OS.  
-
 Add default cells to each new notebook. You have to modify this line in the main.js file to change your default cell. For example
 
 `Jupyter.notebook.insert_cell_above('code', 0).set_text("import numpy as np\nimportpandas as pd")`
@@ -13,4 +11,7 @@ You can also add another default cell by creating a new line just below :
 
 **Don't forget to increment 1 if you want more than one extra cell.**
 
+---
+
+Put me in `/usr/local/share/jupyter/` in Mac OS.  
 
