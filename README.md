@@ -13,7 +13,7 @@ You can also add another default cell by creating a new line just below :
 
 ---
 
-Put me in `/usr/local/share/jupyter/` in Mac OS.  
+Put me in `/usr/local/share/jupyter/nbextensions/default_cells` in Mac OS.  
 You can search the path by
 
 ```
