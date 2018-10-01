@@ -6,7 +6,11 @@ define([
     function load_ipython_extension() {
       if (Jupyter.notebook.get_cells().length===1){
    //do your thing
+<<<<<<< HEAD
         Jupyter.notebook.insert_cell_above('code', 0).set_text("# Scientific libraries\nimport scipy\nimport numpy as np\nimport pandas as pd\n\n# Graphic libraries\nimport matplotlib as mpl\nimport matplotlib.pyplot as plt\n# import seaborn as sns\n# import holoviews as hv\n%matplotlib inline\n\n# Statistical libraries\n# import statsmodels.stats as stats\n# import statsmodels.stats.multicomp as multi\n# import statsmodels.formula.api as smf\n\n# Other libraries\n# import re\n# from datetime import datetime\n# import collections\n\n# Creating alias for magic commands\n%alias_magic t time\n%config InlineBackend.figure_formats = {'png', 'retina'}");
+=======
+        Jupyter.notebook.insert_cell_above('code', 0).set_text("# Scientific libraries\nimport scipy\nimport numpy as np\nimport pandas as pd\n\n# Graphic libraries\nimport matplotlib as mpl\nimport matplotlib.pyplot as plt\n%matplotlib inline\n\n# Statistical libraries\n# import statsmodels.stats as stats\n# import statsmodels.stats.multicomp as multi\n# import statsmodels.formula.api as smf\n\n# Other libraries\n# import re\n\n# Creating alias for magic commands\n%alias_magic t time\n%config InlineBackend.figure_formats = {'png', 'retina'}");
+>>>>>>> 903daec3246338193cca6acc2a0df3eed8e6357d
       }
     }
     return {
