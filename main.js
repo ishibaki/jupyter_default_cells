@@ -12,6 +12,7 @@ define([
 # Statistical libraries\n# import statsmodels.stats as stats\n# import statsmodels.stats.multicomp as multi\n# import statsmodels.formula.api as smf\n# import scikit_posthocs as sp\n\n\
 # Other libraries\n# import re\n# from datetime import datetime\n# import collections\n\n\
 # Creating alias for magic commands\n%alias_magic t time");
+        //Jupyter.notebook.insert_cell_above('code', 1).set_text("import something")
       }
     }
     return {
