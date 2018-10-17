@@ -33,6 +33,8 @@ python -c "from jupyter_core.paths import jupyter_path; print(jupyter_path())"
 
 Example `.ipynb` file is available [here](./example_default_cell.ipynb).
 
+![](./media/sample_movie.gif)
+
 ## Reference
 
 [stack overflow](https://stackoverflow.com/questions/36194865/configure-a-first-cell-by-default-in-jupyter-notebooks)
