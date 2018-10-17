@@ -19,3 +19,7 @@ You can search the path in your terminal by
 ```
 python -c "from jupyter_core.paths import jupyter_path; print(jupyter_path())"
 ```
+
+---
+
+Example `.ipynb` file is available [here](./example_default_cell.ipynb).
