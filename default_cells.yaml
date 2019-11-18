@@ -1,5 +1,5 @@
 Type: IPython Notebook Extension
-Compatibility: 3.x, 4.x
+Compatibility: 3.x, 4.x, 5.x
 Name: Default cells
 Main: main.js
 Link: README.md
